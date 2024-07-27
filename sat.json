@@ -17,8 +17,5 @@
       "minzoom": 0,
       "maxzoom": 22
     }
-  ],
-  "glyphs": "https://api.mapbox.com/fonts/v1/mapbox/{fontstack}/{range}.pbf?access_token=pk.eyJ1IjoiY3Jpc2hlcm5hbmRlem1hcHMiLCJhIjoiY2tvYTRqYTVoMm5mejJwcXdta3UyZzI1byJ9.pqKQkOPvqB-1gmuTdkYzQg",
-  "sprite": "https://api.mapbox.com/styles/v1/mapbox/satellite-v9/sprite?access_token=pk.eyJ1IjoiY3Jpc2hlcm5hbmRlem1hcHMiLCJhIjoiY2tvYTRqYTVoMm5mejJwcXdta3UyZzI1byJ9.pqKQkOPvqB-1gmuTdkYzQg"
+  ]
 }
-
