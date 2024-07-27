@@ -1,0 +1,22 @@
+{
+    "version": 8,
+    "sources": {
+      "mapbox": {
+        "type": "vector",
+        "url": "mapbox://mapbox.satellite"
+      }
+    },
+    "layers": [
+      {
+        "id": "satellite",
+        "type": "raster",
+        "source": "mapbox",
+        "source-layer": "satellite",
+        "minzoom": 0,
+        "maxzoom": 22
+      }
+    ],
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "sprite": "mapbox://sprites/mapbox/satellite-v9",
+    "accessToken": "pk.eyJ1IjoiY3Jpc2hlcm5hbmRlem1hcHMiLCJhIjoiY2tvYTRqYTVoMm5mejJwcXdta3UyZzI1byJ9.pqKQkOPvqB-1gmuTdkYzQg"
+}  
