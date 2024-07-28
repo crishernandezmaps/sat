@@ -1,0 +1,497 @@
+{
+    "version": 8,
+    "name": "Salmon",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:thumb": "data:image/webp;base64,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",
+        "mapbox:sdk-support": {
+            "js": "3.6.0",
+            "android": "11.6.0",
+            "ios": "11.6.0"
+        },
+        "mapbox:groups": {
+            "Land & water, land": {
+                "collapsed": false,
+                "name": "Land & water, land"
+            },
+            "Land & water, water": {
+                "collapsed": false,
+                "name": "Land & water, water"
+            },
+            "Land & water, built": {
+                "collapsed": false,
+                "name": "Land & water, built"
+            }
+        },
+        "mapbox:decompiler": {
+            "id": "clz4mcu2202t801pa2lfi8kn3",
+            "strata": [
+                {
+                    "id": "clz4mcu2202t801pa2lfi8kn3",
+                    "order": [
+                        ["land-and-water", "land"],
+                        ["land-and-water", "water"],
+                        ["land-and-water", "built"],
+                        ["land-and-water", "terrain-labels"],
+                        "traffic"
+                    ]
+                }
+            ],
+            "overrides": {
+                "land-and-water": {
+                    "water": {"paint": {"fill-color": "hsl(208, 96%, 74%)"}},
+                    "waterway": {"paint": {"line-color": "hsl(0, 28%, 90%)"}}
+                }
+            },
+            "components": {"land-and-water": "18.0.0"},
+            "propConfig": {"land-and-water": {}}
+        },
+        "mapbox:uiExpandedImports": ["basemap"],
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [-72.80498334937653, -41.27005980626813],
+    "zoom": 6.636057895478135,
+    "bearing": 0,
+    "pitch": 0,
+    "terrain": null,
+    "imports": [
+        {
+            "id": "basemap",
+            "url": "mapbox://styles/mapbox/standard",
+            "config": {"lightPreset": "dawn"}
+        }
+    ],
+    "sources": {
+        "mapbox://mapbox.mapbox-traffic-v1": {
+            "url": "mapbox://mapbox.mapbox-traffic-v1",
+            "type": "vector"
+        },
+        "composite": {
+            "url": "mapbox://mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2",
+            "type": "vector"
+        }
+    },
+    "sprite": "mapbox://sprites/crishernandezmaps/clz4mcu2202t801pa2lfi8kn3/8jrm3oz3nt9nbb8021tkn2nr7",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "projection": {"name": "globe"},
+    "layers": [
+        {
+            "id": "land",
+            "type": "background",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, land"
+            },
+            "layout": {},
+            "paint": {
+                "background-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    9,
+                    "#000",
+                    11,
+                    "rgb(36, 36, 36)"
+                ]
+            }
+        },
+        {
+            "id": "landcover",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, land"
+            },
+            "source": "composite",
+            "source-layer": "landcover",
+            "maxzoom": 12,
+            "filter": [
+                "match",
+                ["get", "class"],
+                ["scrub", "grass"],
+                ["step", ["zoom"], true, 8, false],
+                true
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": "rgb(26, 26, 26)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    9,
+                    0.4,
+                    10,
+                    ["match", ["get", "class"], "crop", 0, 0.4],
+                    11,
+                    ["match", ["get", "class"], "crop", 0, 0.4],
+                    12,
+                    0
+                ],
+                "fill-antialias": false
+            }
+        },
+        {
+            "id": "national-park",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, land"
+            },
+            "source": "composite",
+            "source-layer": "landuse_overlay",
+            "minzoom": 5,
+            "filter": ["==", ["get", "class"], "national_park"],
+            "layout": {},
+            "paint": {
+                "fill-color": "rgb(31, 31, 31)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.6,
+                    12,
+                    0.2
+                ]
+            }
+        },
+        {
+            "id": "landuse",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, land"
+            },
+            "source": "composite",
+            "source-layer": "landuse",
+            "minzoom": 5,
+            "filter": [
+                "all",
+                [">=", ["to-number", ["get", "sizerank"]], 0],
+                [
+                    "match",
+                    ["get", "class"],
+                    [
+                        "agriculture",
+                        "wood",
+                        "grass",
+                        "scrub",
+                        "glacier",
+                        "pitch",
+                        "sand"
+                    ],
+                    ["step", ["zoom"], false, 11, true],
+                    "residential",
+                    ["step", ["zoom"], true, 10, false],
+                    ["park", "airport"],
+                    [
+                        "step",
+                        ["zoom"],
+                        false,
+                        8,
+                        ["case", ["==", ["get", "sizerank"], 1], true, false],
+                        10,
+                        true
+                    ],
+                    false
+                ],
+                [
+                    "<=",
+                    [
+                        "-",
+                        ["to-number", ["get", "sizerank"]],
+                        [
+                            "interpolate",
+                            ["exponential", 1.5],
+                            ["zoom"],
+                            12,
+                            0,
+                            18,
+                            14
+                        ]
+                    ],
+                    14
+                ]
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": "rgb(31, 31, 31)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    ["match", ["get", "class"], "residential", 0.8, 0.2],
+                    10,
+                    ["match", ["get", "class"], "residential", 0, 1]
+                ],
+                "fill-antialias": false
+            }
+        },
+        {
+            "id": "hillshade",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, land"
+            },
+            "source": "composite",
+            "source-layer": "hillshade",
+            "maxzoom": 16,
+            "filter": [
+                "all",
+                [
+                    "step",
+                    ["zoom"],
+                    ["==", ["get", "class"], "shadow"],
+                    11,
+                    true
+                ],
+                [
+                    "match",
+                    ["get", "level"],
+                    89,
+                    true,
+                    78,
+                    ["step", ["zoom"], false, 5, true],
+                    67,
+                    ["step", ["zoom"], false, 9, true],
+                    56,
+                    ["step", ["zoom"], false, 6, true],
+                    94,
+                    ["step", ["zoom"], false, 11, true],
+                    90,
+                    ["step", ["zoom"], false, 12, true],
+                    false
+                ]
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    14,
+                    [
+                        "match",
+                        ["get", "class"],
+                        "shadow",
+                        "rgba(77, 77, 77, 0.06)",
+                        "rgba(56, 56, 56, 0.04)"
+                    ],
+                    16,
+                    [
+                        "match",
+                        ["get", "class"],
+                        "shadow",
+                        "rgba(77, 77, 77, 0)",
+                        "rgba(56, 56, 56, 0)"
+                    ]
+                ],
+                "fill-antialias": false
+            }
+        },
+        {
+            "id": "waterway-shadow",
+            "type": "line",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, water"
+            },
+            "source": "composite",
+            "source-layer": "waterway",
+            "minzoom": 10,
+            "layout": {
+                "line-cap": ["step", ["zoom"], "butt", 11, "round"],
+                "line-join": ["step", ["zoom"], "miter", 11, "round"]
+            },
+            "paint": {
+                "line-color": "rgb(0, 0, 0)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    9,
+                    ["match", ["get", "class"], ["canal", "river"], 0.1, 0],
+                    20,
+                    ["match", ["get", "class"], ["canal", "river"], 8, 3]
+                ],
+                "line-translate": [
+                    "interpolate",
+                    ["exponential", 1.2],
+                    ["zoom"],
+                    7,
+                    ["literal", [0, 0]],
+                    16,
+                    ["literal", [-1, -1]]
+                ],
+                "line-translate-anchor": "viewport",
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "water-shadow",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, water"
+            },
+            "source": "composite",
+            "source-layer": "water",
+            "minzoom": 10,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgb(0, 0, 0)",
+                "fill-translate": [
+                    "interpolate",
+                    ["exponential", 1.2],
+                    ["zoom"],
+                    7,
+                    ["literal", [0, 0]],
+                    16,
+                    ["literal", [-1, -1]]
+                ],
+                "fill-translate-anchor": "viewport"
+            }
+        },
+        {
+            "id": "waterway",
+            "type": "line",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, water"
+            },
+            "source": "composite",
+            "source-layer": "waterway",
+            "minzoom": 8,
+            "layout": {
+                "line-cap": ["step", ["zoom"], "butt", 11, "round"],
+                "line-join": ["step", ["zoom"], "miter", 11, "round"]
+            },
+            "paint": {
+                "line-color": "hsl(0, 28%, 90%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    9,
+                    ["match", ["get", "class"], ["canal", "river"], 0.1, 0],
+                    20,
+                    ["match", ["get", "class"], ["canal", "river"], 8, 3]
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "water",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, water"
+            },
+            "source": "composite",
+            "source-layer": "water",
+            "layout": {},
+            "paint": {"fill-color": "hsl(208, 96%, 74%)"}
+        },
+        {
+            "id": "land-structure-polygon",
+            "type": "fill",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, built"
+            },
+            "source": "composite",
+            "source-layer": "structure",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "land"],
+                ["==", ["geometry-type"], "Polygon"]
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    9,
+                    "#000",
+                    11,
+                    "rgb(36, 36, 36)"
+                ]
+            }
+        },
+        {
+            "id": "land-structure-line",
+            "type": "line",
+            "metadata": {
+                "mapbox:featureComponent": "land-and-water",
+                "mapbox:group": "Land & water, built"
+            },
+            "source": "composite",
+            "source-layer": "structure",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "land"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": "square"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.99],
+                    ["zoom"],
+                    14,
+                    0.75,
+                    20,
+                    40
+                ],
+                "line-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    9,
+                    "#000",
+                    11,
+                    "rgb(36, 36, 36)"
+                ]
+            }
+        },
+        {
+            "id": "traffic",
+            "type": "line",
+            "source": "mapbox://mapbox.mapbox-traffic-v1",
+            "source-layer": "traffic",
+            "layout": {},
+            "paint": {"line-color": "hsl(0, 8%, 17%)"}
+        }
+    ],
+    "created": "2024-07-27T21:04:02.858Z",
+    "modified": "2024-07-27T21:19:46.331Z",
+    "id": "clz4mcu2202t801pa2lfi8kn3",
+    "owner": "crishernandezmaps",
+    "visibility": "private",
+    "protected": false,
+    "draft": false
+}
